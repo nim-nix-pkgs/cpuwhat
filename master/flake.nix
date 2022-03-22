@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-cpuwhat-master.flake = false;
+  inputs.src-cpuwhat-master.ref   = "refs/heads/master";
   inputs.src-cpuwhat-master.owner = "awr1";
-  inputs.src-cpuwhat-master.ref   = "master";
   inputs.src-cpuwhat-master.repo  = "cpuwhat";
   inputs.src-cpuwhat-master.type  = "github";
   
