@@ -9,13 +9,14 @@
   
   inputs.src-cpuwhat-master.flake = false;
   inputs.src-cpuwhat-master.owner = "awr1";
-  inputs.src-cpuwhat-master.ref   = "refs/heads/master";
+  inputs.src-cpuwhat-master.ref   = "master";
   inputs.src-cpuwhat-master.repo  = "cpuwhat";
   inputs.src-cpuwhat-master.type  = "github";
   
   inputs."nimterop".owner = "nim-nix-pkgs";
   inputs."nimterop".ref   = "master";
   inputs."nimterop".repo  = "nimterop";
+  inputs."nimterop".dir   = "v0_6_13";
   inputs."nimterop".type  = "github";
   inputs."nimterop".inputs.nixpkgs.follows = "nixpkgs";
   inputs."nimterop".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
