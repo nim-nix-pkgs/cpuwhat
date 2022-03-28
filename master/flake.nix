@@ -11,7 +11,6 @@
   inputs.src-cpuwhat-master.ref   = "refs/heads/master";
   inputs.src-cpuwhat-master.owner = "awr1";
   inputs.src-cpuwhat-master.repo  = "cpuwhat";
-  inputs.src-cpuwhat-master.dir   = "";
   inputs.src-cpuwhat-master.type  = "github";
   
   inputs."nimterop".owner = "nim-nix-pkgs";
