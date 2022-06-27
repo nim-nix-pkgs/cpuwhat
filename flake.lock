@@ -3,29 +3,59 @@
     "cligen": {
       "inputs": {
         "flakeNimbleLib": [
+          "cpuwhat-master",
           "nimterop",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "cpuwhat-master",
           "nimterop",
           "nixpkgs"
         ],
-        "src-cligen-v1_5_24": "src-cligen-v1_5_24"
+        "src-cligen-v1_5_23": "src-cligen-v1_5_23"
       },
       "locked": {
-        "dir": "v1_5_24",
-        "lastModified": 1656300823,
-        "narHash": "sha256-KyS8xh5KJxE8uPzSlOO2kLpCV18l9llCXAy5YFgbwII=",
+        "dir": "v1_5_23",
+        "lastModified": 1648162991,
+        "narHash": "sha256-tV9CXtg3ZHM7zTScu0UCNZnlwQJURcnUkm9LYfSlv70=",
         "owner": "nim-nix-pkgs",
         "repo": "cligen",
-        "rev": "fbc6e9c5fc76dcc89e25e9566b1641c3b77fbd85",
+        "rev": "23f12e283a0b2865b94487e828465a5e43eff0bb",
         "type": "github"
       },
       "original": {
-        "dir": "v1_5_24",
+        "dir": "v1_5_23",
         "owner": "nim-nix-pkgs",
         "ref": "master",
         "repo": "cligen",
+        "type": "github"
+      }
+    },
+    "cpuwhat-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nimterop": "nimterop",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-cpuwhat-master": "src-cpuwhat-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1652367045,
+        "narHash": "sha256-azgqCq12z72GsvrXh4SA7m496aSXiZ7KA31lw38waC0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "cpuwhat",
+        "rev": "90f067e5d35b78f27a8f4995d3cb53bfc57d4fba",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "cpuwhat",
         "type": "github"
       }
     },
@@ -54,9 +84,11 @@
       "inputs": {
         "cligen": "cligen",
         "flakeNimbleLib": [
+          "cpuwhat-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "cpuwhat-master",
           "nixpkgs"
         ],
         "regex": "regex",
@@ -64,11 +96,11 @@
       },
       "locked": {
         "dir": "v0_6_13",
-        "lastModified": 1656302710,
-        "narHash": "sha256-DTF5f2VGMHlT+WC4z5LCU/RFfN84/qmod/KgfAMx1cs=",
+        "lastModified": 1650757816,
+        "narHash": "sha256-HzPA1Iy+qNybw0YbMIEDecbvyKO4A4XKG/rlVYuRxXk=",
         "owner": "nim-nix-pkgs",
         "repo": "nimterop",
-        "rev": "d44d3a93c86172d46742309f206d6396d63c6424",
+        "rev": "57a187ebed4aa7268acf06f8a205925e0c19e4dd",
         "type": "github"
       },
       "original": {
@@ -94,10 +126,12 @@
     "regex": {
       "inputs": {
         "flakeNimbleLib": [
+          "cpuwhat-master",
           "nimterop",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "cpuwhat-master",
           "nimterop",
           "nixpkgs"
         ],
@@ -123,25 +157,24 @@
     },
     "root": {
       "inputs": {
+        "cpuwhat-master": "cpuwhat-master",
         "flakeNimbleLib": "flakeNimbleLib",
-        "nimterop": "nimterop",
-        "nixpkgs": "nixpkgs",
-        "src-cpuwhat-master": "src-cpuwhat-master"
+        "nixpkgs": "nixpkgs"
       }
     },
-    "src-cligen-v1_5_24": {
+    "src-cligen-v1_5_23": {
       "flake": false,
       "locked": {
-        "lastModified": 1654702226,
-        "narHash": "sha256-QmGWVoS6pe6QKp/nxVE0WI1clLs9gJ+l9wjnmtpuZV4=",
+        "lastModified": 1647952908,
+        "narHash": "sha256-rcledZbmcAXs0l5uQRmOennyMiw4G+zye6frGqksjyA=",
         "owner": "c-blake",
         "repo": "cligen",
-        "rev": "a276fa26fd352816f2ff807591540b27c5247c4a",
+        "rev": "cac47b08172978dad61d08debd0e68c3f249a3f7",
         "type": "github"
       },
       "original": {
         "owner": "c-blake",
-        "ref": "refs/tags/v1.5.24",
+        "ref": "refs/tags/v1.5.23",
         "repo": "cligen",
         "type": "github"
       }
@@ -217,11 +250,13 @@
     "unicodedb": {
       "inputs": {
         "flakeNimbleLib": [
+          "cpuwhat-master",
           "nimterop",
           "regex",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "cpuwhat-master",
           "nimterop",
           "regex",
           "nixpkgs"
